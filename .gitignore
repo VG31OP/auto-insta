@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+
+# Persistent Browser Profiles & Sessions (CRITICAL: Never commit session cookies)
+.browser_profile/
+*.session
+*.cookie
+cookies.json
+*.tmp
+temp_*/
+
+# Environment Variables & Secrets
+.env
+.env.local
+.env.*.local
+
+# Operating System & IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+.agents/
+
+# Generated Media Outputs & Scratch Video Renders
+*.mp4
+*.webm
+*.mp3
+*.wav
+temp_video_record/
+content/**/carousel_slides/
+content/**/temp_*
+
+# Node & Build artifacts (if any)
+node_modules/
+npm-debug.log*
