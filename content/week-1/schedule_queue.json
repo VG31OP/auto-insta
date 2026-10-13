@@ -1,0 +1,53 @@
+[
+  {
+    "id": "post_01",
+    "day": "Day 1 (Mon)",
+    "scheduled_time": "19:30",
+    "format": "reel",
+    "title": "3 Secret Websites in 2026",
+    "video": "content/week-1/reel_secret_websites.mp4",
+    "cover": "content/week-1/cover.jpg",
+    "caption": "3 secret websites that feel completely illegal to know in 2026.\n\nStop paying for expensive subscriptions. Here are three free tools that solve 90% of your digital chores:\n\n1. TinyWow (tinywow.com) - 200+ free tools to edit PDFs, convert files, and remove backgrounds.\n2. Claude Artifacts (claude.ai) - Turn plain English ideas into full working web apps.\n3. Tome AI (tome.app) - Generate entire presentations, slide decks, and wireframes.\n\nComment TOOL and our bot will send you direct access links right now.\n\n#aitools #productivity #freeai",
+    "first_comment": "Which of these 3 tools are you using first? Comment TOOL and I'll DM you direct access links! \ud83d\ude80",
+    "handle": "vrj.ai",
+    "status": "published"
+  },
+  {
+    "id": "post_02",
+    "day": "Day 2 (Tue)",
+    "scheduled_time": "08:30",
+    "format": "carousel",
+    "title": "5 Smartphone Settings to Turn Off",
+    "slides_dir": "content/week-1/carousel-01_slides",
+    "caption": "5 smartphone settings draining your battery and tracking your location right now.\n\nSwipe through to see the exact toggles for iOS and Android.\n\nComment PHONE for our full 1-click privacy checklist.\n\n#techhacks #smartphonetricks #privacy",
+    "first_comment": "How many of these 5 settings were still turned ON on your phone? Comment PHONE for the direct checklist! \ud83d\udcf1",
+    "handle": "vrj.ai",
+    "status": "pending"
+  },
+  {
+    "id": "post_03",
+    "day": "Day 3 (Wed)",
+    "scheduled_time": "19:45",
+    "format": "reel",
+    "title": "Faceless $200/Day AI Blueprint",
+    "video": "content/week-1/reel_blueprint.mp4",
+    "cover": "content/week-1/cover_blueprint.jpg",
+    "caption": "How people make $200/day using free AI tools without showing their face.\n\nHere is the exact 3-step engine:\n1. Claude for high-value Notion prompt templates\n2. Gamma for presentation designs\n3. Gumroad for automated 24/7 fulfillment\n\nComment BLUEPRINT and I'll send you the free template starter pack!\n\n#sidehustle #aitools #makemoneyonline",
+    "first_comment": "Ready to launch your first digital product? Comment BLUEPRINT below! \ud83d\ude80",
+    "handle": "vrj.ai",
+    "status": "pending"
+  },
+  {
+    "id": "post_04",
+    "day": "Day 4 (Thu)",
+    "scheduled_time": "13:15",
+    "format": "reel",
+    "title": "Stop Paying $20/Month for ChatGPT",
+    "video": "content/week-1/reel_chatgpt_alts.mp4",
+    "cover": "content/week-1/cover_chatgpt_alts.jpg",
+    "caption": "Stop paying $20 every month for ChatGPT Plus.\n\nHere are 3 free AI models that are faster, smarter, and completely free in 2026:\n1. DeepSeek R1 for advanced math and logic reasoning\n2. Claude 3.5 Sonnet Artifacts for web development\n3. Perplexity for real-time cited web research\n\nComment FREE-AI and I'll DM you the direct comparison breakdown.\n\n#chatgpt #ai #deepseek",
+    "first_comment": "Which AI model are you using most this week? Comment FREE-AI for prompt templates! \ud83d\udca1",
+    "handle": "vrj.ai",
+    "status": "pending"
+  }
+]
