@@ -97,15 +97,21 @@ edge-tts --voice en-US-ChristopherNeural --rate=+15% \
   --write-media content/week-1/voiceover.mp3
 ```
 
-### Step 3: Render Kinetic Reel Video
-Compile the HTML5 motion template and audio track into a broadcast-ready H.264 / AAC vertical video:
+### Step 3: Render Studio 10/10 Kinetic Reel Video
+Compile the GSAP HTML5 motion template and multi-track audio bus into a broadcast-ready H.264 CRF 17 / 48kHz AAC vertical video:
 
 ```bash
 python render_viral_reel.py \
-  --html content/week-1/reel_secret_websites.html \
+  --html templates/motion_reel_pro.html \
   --audio content/week-1/voiceover.mp3 \
-  --output content/week-1/final_reel.mp4
+  --output content/week-1/final_reel.mp4 \
+  --fps 30
 ```
+
+*What happens under the hood:*
+1. **Multi-Track Audio Engine (`render_pro_audio.py`)**: Automatically layers your voiceover with low-end warmth EQ, mixes 124 BPM electronic synth BGM ducked by -14dB beneath dialogue, triggers a sub-bass hook impact riser at `0.0s`, and inserts kinetic whoosh and UI pop SFX at each beat transition.
+2. **Hardware-Accelerated Browser Capture**: Renders silky-smooth GSAP 3 animations, real-time progress bars, pulsing audio frequency HUDs, and ambient cyber shaders.
+3. **FFmpeg Broadcast Master**: Muxes video and audio using `libx264` High Profile (CRF 17, 48kHz stereo AAC 320k) with `faststart` for zero playback buffering.
 
 ### Step 4: Publish Reel Live to Instagram
 Upload the video, attach a custom 1080x1920 cover image, write the caption, and post the first engagement comment:
@@ -135,10 +141,14 @@ python post_to_instagram.py \
 
 ---
 
-## Built-In AI Agent Skills
+## Built-In AI Agent Skills & Standards
 
-| Skill | Command | Description |
+| Skill | Category | Description |
 | :--- | :--- | :--- |
+| **Motion Graphics Pro** | Video Production | 10/10 visual standard, 60-30-10 color rules, 2.5s visual reset rule, physics curves. |
+| **Short Video Coach** | Video Editing | Post-production pipeline, pacing curves, audio ducking, and retention hooks. |
+| **GSAP Master** | Motion Design | Core timeline sequencing, spring overshoot easing, and responsive animations. |
+| **UI/UX Pro Max** | Design System | Cyber dark tokens, high-contrast typography, and glassmorphic surface rules. |
 | **Reel Generator** | `/ig-reel` | Scores hooks across 26 formulas, outputs timed script beat sheets. |
 | **Viral Research** | `/ig-viral` | Ranks niche content by multiple over account median. |
 | **Humanizer** | `/ig-human` | Strips em dashes, invisible watermarks, and 150+ AI slop phrases. |
